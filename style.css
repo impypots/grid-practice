@@ -52,7 +52,6 @@ h2 {
 #grid-container > article {
     background: var(--bg-green);
     border-radius: 10px;
-    padding:15px 10px;
 }
 
 #grid-container article:nth-of-type(1) {
@@ -106,15 +105,17 @@ h2 {
     text-align: center;
     line-height: 8vw;
     transform-origin: center;
-    width: 100%;
-    height: 100%;
+    width: 7vw;
+    height: 7vw;
     text-transform: uppercase;
+    box-sizing: border-box;
     
 }
 
 #diamond-grid-container > article {
     background: var(--bg-green);
     border-radius: 2px;
+    border: 3px solid var(--bg-blue);
     padding:15px 10px;
     overflow:hidden;
 }
